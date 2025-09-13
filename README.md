@@ -1,12 +1,38 @@
 # TETRING — 테트리스 × 덱빌딩 웹 게임
 
-> **한 줄 소개**  
+> **한 줄 소개**
+> 
 > 클래식 퍼즐 **테트리스**에 **덱빌딩 전략**을 결합해, 손맛과 전략을 동시에 느낄 수 있도록 설계한 웹 게임입니다.  
 > 라운드별 목표 점수를 달성하며, 상점에서 유물/블록을 조합해 시너지를 만드는 것이 핵심입니다.
 
 <p align="center">
-  <img src="docs/cover.jpg" alt="프로젝트 대표 이미지(스크린샷/포스터)" width="720"/>
+  <img src="docs/cover.jpg" alt="프로젝트 대표 이미지(스크린샷/포스터)" width="360"/>
 </p>
+
+---
+
+## 스크린샷
+<p align="center">
+  <img src="docs/screen-gameplay.png" alt="플레이 화면 예시" width="720"/><br/>
+  <em>플레이 화면 — 콤보·라운드 목표 UI</em>
+</p>
+
+<p align="center">
+  <img src="docs/screen-shop.png" alt="상점/리롤 화면 예시" width="720"/><br/>
+  <em>상점 — 희귀도/중복 방지/리롤 인터랙션</em>
+</p>
+
+---
+
+## 레파지토리
+
+- **Backend (Spring Boot)**  
+  <[테트링 백엔드](https://github.com/Bracket-team/tetring-backend)>  
+  간단 설명: OAuth2 + Spring Security, Redis 기반 Refresh Token, JPA/MySQL.
+
+- **Frontend (React)**  
+  <[테트링 프론트엔드](https://github.com/Bracket-team/tetring-react)>  
+  간단 설명: React
 
 ---
 
@@ -55,19 +81,6 @@
   - 로그인 기능을 구현하기 위해 Sprint Security + OAuth2.0 사용하여 구현
 - **품질 관리**:  
   - 테스트 플레이(알파)와 로그 관찰을 통해 **체감 난이도**와 **선호 빌드**를 파악하고 지표 기반으로 개선했습니다.
-
----
-
-## 스크린샷
-<p align="center">
-  <img src="docs/screen-gameplay.png" alt="플레이 화면 예시" width="720"/><br/>
-  <em>플레이 화면 — 콤보·라운드 목표 UI</em>
-</p>
-
-<p align="center">
-  <img src="docs/screen-shop.png" alt="상점/리롤 화면 예시" width="720"/><br/>
-  <em>상점 — 희귀도/중복 방지/리롤 인터랙션</em>
-</p>
 
 ---
 
