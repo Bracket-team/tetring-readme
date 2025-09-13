@@ -5,7 +5,7 @@
 > 라운드별 목표 점수를 달성하며, 상점에서 유물/블록을 조합해 시너지를 만드는 것이 핵심입니다.
 
 <p align="center">
-  <img src="docs/cover.png" alt="프로젝트 대표 이미지(스크린샷/포스터)" width="720"/>
+  <img src="docs/cover.jpg" alt="프로젝트 대표 이미지(스크린샷/포스터)" width="720"/>
 </p>
 
 ---
